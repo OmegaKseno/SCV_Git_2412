@@ -107,13 +107,20 @@ git config --global user.name "ВАШЕ Имя"
 ## 14 Работа с удаленным репазиторием
 
 Для работы с удаленным репазиторием в локальном требуется после создания удалленого воспользоваться следующими подстказками от Github
-``` …or create a new repository on the command line
+```
 echo "# test" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/OmegaKseno/test.git
-git push -u origin main    ```
+git push -u origin main
+```
 
-   
+## 15. Получение данных с удаленного репазитория.
+
+Для актуализации данных в локальном репозитории нужно воспользоваться командой `git pull`.
+
+
+
+
